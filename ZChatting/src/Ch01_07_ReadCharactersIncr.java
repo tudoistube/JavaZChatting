@@ -1,6 +1,6 @@
 import java.io.*; //...IOException.
 
-public class Ch1_7_ReadCharactersIncr {
+public class Ch01_07_ReadCharactersIncr {
 
 	   static int size = 0;
 	   static int bufferSize = 80;
@@ -20,6 +20,7 @@ public class Ch1_7_ReadCharactersIncr {
 	      }
 	   }
 	   
+	   //...80개 이상의 데이터를 입력하면 자동적으로 버퍼의 크기를 늘린다.
 	   static void increaseBufferSize(){
 	      bufferSize += 80;
 	      byte[] newBuffer = new byte[bufferSize];

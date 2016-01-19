@@ -1,5 +1,10 @@
-
-public class Ch1_3_DisplayString {
+/**
+ * D:\2DoIs2Be\ZGit_Java\JavaZChatting\ZChatting\src>java Ch01_03_DisplayString apple
+apple
+ * @author Administrator
+ *
+ */
+public class Ch01_03_DisplayString {
 
 	public static void main(String[] args)  throws java.io.IOException {
 

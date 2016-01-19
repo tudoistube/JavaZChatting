@@ -1,6 +1,6 @@
 import java.io.*; //...IOException, InputStream, OutputStream
 
-public class Ch1_8_StreamCopier {
+public class Ch01_08_StreamCopier {
 
 	   public static void main(String args[]){
 		      try{

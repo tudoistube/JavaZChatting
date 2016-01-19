@@ -1,5 +1,5 @@
 
-public class Ch1_1_DisplayCharacter {
+public class Ch01_01_DisplayCharacter {
 
 	public static void main(String[] args)   throws java.io.IOException {
 		

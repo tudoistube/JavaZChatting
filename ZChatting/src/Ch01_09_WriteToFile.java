@@ -1,14 +1,16 @@
 import java.io.*; //...IOException, InputStream, OutputStream
 
-public class Ch1_9_WriteToFile {
+public class Ch01_09_WriteToFile {
 
+	  //...FileOutputStream는 메모리와 지정한 파일을 연결하는 스트림.
 	   static FileOutputStream fout;
 	   
 	   public static void main(String args[]){
 	      try{
 	         int bytesRead;
 	         byte[] buffer = new byte[256];
-	         fout = new FileOutputStream("example1_9.txt");
+	         //...D:\2DoIs2Be\ZGit_Java\JavaZChatting\ZChatting\src
+	         fout = new FileOutputStream("example01_09.txt");
 	         
 	         while((bytesRead = System.in.read(buffer)) >= 0){ 
 	            fout.write(buffer, 0, bytesRead); 

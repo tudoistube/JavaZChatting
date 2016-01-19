@@ -1,5 +1,5 @@
 
-public class Ch1_5_ReadCharactersBlock {
+public class Ch01_05_ReadCharactersBlock {
 
 	public static void main(String[] args)  throws java.io.IOException {
 		
