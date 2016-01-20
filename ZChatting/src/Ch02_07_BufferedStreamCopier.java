@@ -32,7 +32,9 @@ public class Ch02_07_BufferedStreamCopier
 	               bos.write(nData); // 버퍼에 데이터를 전송한다.
 	            }
 	            
-	            bos.flush(); // 버퍼에 있는 모든 데이터를 스트림으로 전송한다.
+	            //...출력버퍼가 다 차지 않아도 남아있는 내용을 강제적으로 전송시켜야 함.
+	            // 버퍼에 있는 모든 데이터를 스트림으로 전송한다.
+	            bos.flush(); 
 	            
 	         }
 	      }

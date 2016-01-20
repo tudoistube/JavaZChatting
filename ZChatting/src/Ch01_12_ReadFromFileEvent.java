@@ -1,6 +1,6 @@
 import java.io.*; //...IOException, InputStream, OutputStream
-import java.awt.*; //...GUI.
-import java.awt.event.*; //...GUI Event.
+import java.awt.*; //...GUI(Frame).
+import java.awt.event.*; //...GUI Event(ActionListener).
 
 public class Ch01_12_ReadFromFileEvent  extends Frame implements ActionListener
 {
