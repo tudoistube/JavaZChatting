@@ -1,0 +1,5 @@
+파일 복사를 위한 샘플 데이터 파일입니다.
+
+This is a sample data file for FileCopyTest.
+
+This is Magic^^!
